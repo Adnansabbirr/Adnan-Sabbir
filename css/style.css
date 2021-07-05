@@ -4,7 +4,7 @@ body{
 span{
     color: #4c9d95;
 }
-section{
+.flexiblecontainer{
     display: flex;
 }
 .half-width{
@@ -36,6 +36,7 @@ section{
 .dream{
     display: flex;
     padding-top:50px;
+    
 }
 .section2{
     width: 50%;
@@ -46,4 +47,30 @@ section{
     margin-left: 75px;
     margin: top 25px;
     border-radius: 15px;
+}
+.hiringitem{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 5px;
+    padding-left: 25px;
+    margin-bottom: 15px;
+}
+.hire{
+    margin-left:5px
+}
+.footer{
+    background-color: #3aa39c;
+    height: 70px;
+    margin: 0px;
+}
+.footer img{  
+ height: 70px;.
+}
+h4{
+    display: inline;
+    position:absolute;
+    padding-left:8px;
+    color: whitesmoke;
 }
